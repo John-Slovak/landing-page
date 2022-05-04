@@ -24,7 +24,7 @@ footer {
 .top-header {
     display: flex;
     margin: 20px 0px;
-    width: 70%;
+    min-width: 70%;
     height: 30px;
     justify-content: space-between;
     align-items: center;
@@ -38,7 +38,7 @@ ul {
 }
 
 .logo {
-    font-size: 24px;
+    font-size: 30px;
     color: #f9faf8;
     font-weight: 700;
 }
@@ -52,7 +52,7 @@ ul {
 
 .mid-header {
     display: flex;
-    width: 70%;
+    min-width: 70%;
     gap: 80px;
     padding: 100px 0px 100px;
 }
@@ -74,7 +74,7 @@ ul {
 button {
    color: #f9faf8;
    background-color: #3882f6;
-   padding: 8px 32px;
+   padding: 10px 32px;
    border-radius: 10px; 
    border: 0px;
    font-size: 20px;
@@ -98,15 +98,118 @@ button {
 
 .info {
     background-color: #f9faf8;
-    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.quote{
+.info-title {
+    display: flex;
+    font-size: 42px;
+    font-weight: 900;
+    color: #1f2937;
+    margin: 65px;
+}
+
+.containers {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: #f9faf8;
+    border: 5px solid #3882f6;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+.subtext {
+    width: 190px;
+    text-align: center;
+    font-size: 22px;
+    color: #6b7b94;
+}
+
+.quote-body{
     background-color: #e5e7eb;
     height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.quote {
+    font-size: 40px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1f2937;
+    width: 50%;
+}
+
+.quoter {
+    color: #1f2937;
+    align-self: flex-end;
+    width: 45%;
+    font-weight: 900;
+    font-size: 25px;
 }
 
 .action {
     background-color: #f9faf8;
-    height: 300px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blue-box {
+    min-width: 70%;
+    height: 200px;
+    background-color: #3882f6;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.blue-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-width: 80%;
+}
+
+.its-time {
+    margin-left: 50px;
+}
+
+.button {
+    margin-right: 50px;
+    border: solid 2px #e5e7eb;
+    margin-left: 50px;
+}
+
+.action-title {
+    font-weight: 900;
+    margin: 0;
+    font-size: 30px;
+    color: #e5e7eb;
+}
+
+.action-description {
+    color: #e5e7eb;
+    font-size: 24px;
+    margin: 0;
 }
