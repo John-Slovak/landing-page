@@ -7,3 +7,6 @@ Finished the header, footer, and layed out the general structure. Firstly, the h
 
 UPDATE2:
 Site is done. I have "a lot" of divs and css elements. Is that how you are supposed to do it? I take it as making a little control board for every piece on the site. It is somewhat organized, so that's nice. Only issue i ran into is the quote not wanting to stay in the center when i do min-width: 50% for some reason. Anyways, I got a spark of creativity on what to do with it so it isn't just a generic template, that's gonna be the last step.
+
+UPDATE3:
+Added links, styled the hover and active functions. Think it's done. Think it turned out great.

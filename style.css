@@ -237,3 +237,28 @@ button {
     font-size: 24px;
     margin: 0;
 }
+
+button:hover {
+    background-color: #e5e7eb;
+    color: #3882f6;
+}
+
+li:hover {
+    color: #6b7b94;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+li:active {
+    color: #ffffff;
+}
+
+.box:hover {
+    box-shadow: #002963 inset 1px 5px 10px;
+}
