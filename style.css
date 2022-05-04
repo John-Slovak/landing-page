@@ -1,0 +1,112 @@
+body {
+    font-family: roboto, Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+header {
+    background-color: #1f2937;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    color: #e5e7eb;
+    height: 100px;
+}
+
+.top-header {
+    display: flex;
+    margin: 20px 0px;
+    width: 70%;
+    height: 30px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    display: flex;
+    gap: 20px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: 700;
+}
+
+.link-one,
+.link-two,
+.link-three {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.mid-header {
+    display: flex;
+    width: 70%;
+    gap: 80px;
+    padding: 100px 0px 100px;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+    margin: 0;
+}
+
+.description {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin: 0;
+    margin-bottom: auto;
+}
+
+button {
+   color: #f9faf8;
+   background-color: #3882f6;
+   padding: 8px 32px;
+   border-radius: 10px; 
+   border: 0px;
+   font-size: 20px;
+   font-weight: 600;
+}
+
+.left-header {
+    width: 50%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.right-header {
+    width: 50%;
+    height: 300px;
+    background: url(./turd.jpg);
+}
+
+.info {
+    background-color: #f9faf8;
+    height: 500px;
+}
+
+.quote{
+    background-color: #e5e7eb;
+    height: 400px;
+}
+
+.action {
+    background-color: #f9faf8;
+    height: 300px;
+}
